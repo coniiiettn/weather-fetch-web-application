@@ -1,5 +1,5 @@
-
-const API_KEY = '06d6cb947b47ee928c3ac6be5abde978';
+//Considering the API key is sensitive information, while pushing the code to GitHub, I have removed the API key from the code.
+const API_KEY = 'INPUT YOUR API KEY';
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 
 
