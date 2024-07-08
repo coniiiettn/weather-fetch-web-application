@@ -1,5 +1,5 @@
 # **Weather Fetch: Retrieve current weather information**
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/dee113ee-a07d-4100-9a7e-596f61ed4124)
+![Screenshot 2024-07-08 at 5 37 43 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/87624db4-e3ab-493f-84e2-cc2031db7469)
 
 Weather Fetch is a dynamic weather application developed using React and Next.js, integrated with the OpenWeatherMap API. The app allows users to search for weather information by city name, city ID, or their current location. It includes support for multiple languages and provides weather description in a user-friendly interface.
 
@@ -31,68 +31,74 @@ Weather Fetch is a dynamic weather application developed using React and Next.js
 ### Home Page
 - Automatically extract the current date/time/location
 - Display the local weather info by card
+  
+![Screenshot 2024-07-08 at 5 38 00 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/e96d7cb5-b9e9-4cde-b96f-1ea3c1a06703)
 
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/faa3773b-ecb0-4e65-9aa9-dd18db3ae134)
 
 ### Navbar
 - Link to Home page and All Cities page
-- Search bar with switch button for user to search weather by City ID or City name
+- Search bar with switch button for user to change search mode (Allow user searching by City ID or City name)
 - Recently Viewed Dropdown List
-- Dropdown list for language selection
 
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/aa4ddd18-7216-4d73-b5d0-52bb54ec3efd)
+![Screenshot 2024-07-08 at 5 42 46 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/cc9cd052-233e-402b-b0ca-d8da2c9588b5)
 
-### Language Selector
-- Select language to translate weather description into target language
-
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/60584478-0b8a-4d0d-b4bb-9c202c9c0dbc)
-
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/6a119262-12e4-4abd-add4-6f3dd984c78e)
+![Screenshot 2024-07-08 at 5 42 54 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/cfc4c5c3-5179-4055-b090-7bb9dff1ae2e)
 
 ### Search By ID
-- Pop up window (Modal) for detailed result
 
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/fa1b8002-ff98-4a48-950b-aa201900bd90)
+![Screenshot 2024-07-08 at 5 38 10 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/91c51c35-a76a-4790-99e2-72075af9974f)
 
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/699a22c7-c0ef-45e8-93b0-d1bef547407f)
 
 ### Search By City Name
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/4dd8721a-57bc-4d8d-ad76-ee1bda429a57)
+
+![Screenshot 2024-07-08 at 5 39 37 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/fac69df1-b2d7-4dcc-91f4-bd0c19265d03)
+
 
 ### Search By City Name, CountryCode
 - Regardless of spaces between name, comma, country code
 
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/294650e5-cb6e-4715-ba75-514804991f48)
+![Screenshot 2024-07-08 at 5 40 20 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/310c8eaf-b2fc-444f-afa9-316172d2c3c7)
 
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/311468e4-1ee8-4afb-926b-755fc9898246)
+### Modal Window
+- Pop up window (Modal) for detailed result
+
+![Screenshot 2024-07-08 at 5 39 45 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/403b94cc-76ee-4d26-938b-6c875676fb40)
+
+### Language Selector
+- Select language to translate weather description into target language
+![Screenshot 2024-07-08 at 5 43 23 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/5dad79a0-c12a-4cb4-aa08-0177d3fd6690)
+
+![Screenshot 2024-07-08 at 5 43 40 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/4854a38f-5f01-4a2f-bc0e-fb78336ec34c)
+
+![Screenshot 2024-07-08 at 5 55 17 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/ab463cf3-0799-4fe0-afb2-4090cc39d485)
 
 
 ### Recently Viewed Cities
 - City ID is pushed to Recently Viewed Dropdown Menu(five as maximum), can be clicked to see detail
 - After clicking on a city ID from the recently viewed list in your weather application, the page renders and displayss detailed weather information for that city
 
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/d8f4b65e-fa5a-4347-8227-5ae9d323e2ab)
+![Screenshot 2024-07-08 at 5 41 37 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/11a98e6f-a0a4-4033-bb60-a086a939d701)
 
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/03a6d5de-1e63-4a8f-b54d-e3654ef70a75)
 
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/a5865c9d-6edc-40ee-a955-8d8a19c4fdb9)
+![Screenshot 2024-07-08 at 5 42 27 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/fcb71c61-3f97-4b97-8c31-4cdde97b8604)
 
-### Error Handling
+
+### Validation and Error Handling
+- Block input section if the input does not meet the required criteria (e.g., non-numeric input for City ID, numeric input for City Name)
 - Display of error messages for invalid inputs and other errors
 
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/c1f45bd4-364c-4a11-8092-86bd80c99381)
+![Screenshot 2024-07-08 at 5 44 12 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/d1cf3d08-3ef7-4f2e-b982-28dddb7ff07c)
 
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/d2c07814-6569-42fc-b94e-f64fad100af2)
+![Screenshot 2024-07-08 at 5 38 42 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/dfeadac1-a0da-4ad8-b92c-ee62ec145074)
 
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/a8befae3-7e6d-4e07-9c84-85ddc522145a)
+![Screenshot 2024-07-08 at 5 39 00 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/7742296f-32c6-42d7-bc65-bd14b77abe98)
 
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/d398c50e-89c8-4f2d-876f-4a14d07d083a)
+![Screenshot 2024-07-08 at 6 01 19 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/2e98a807-6c2d-4b80-bfea-ed425d6d533f)
 
 ### 404 Not Found Page
 - Display of 404 error page for non-existent routes
 
-![image](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/89a7ddac-e035-408f-b3c5-3771854be3d3)
-
+![Screenshot 2024-07-08 at 5 44 56 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/ec73f583-a47b-44fa-b834-c52ca3418396)
 
 
 ## **Summary**
