@@ -29,8 +29,8 @@ Weather Fetch is a dynamic weather application developed using React and Next.js
 ## **FeaturePreviews**
 
 ### Home Page
-- Automatically extract the current date/time/location
-- Display the local weather info by card
+- Automatically extract the user's location through Geolocation API
+- Display the real-time weather info by card
   
 ![Screenshot 2024-07-08 at 5 38 00 PM](https://github.com/coniiiettn/weather-fetch-web-application/assets/132239088/e96d7cb5-b9e9-4cde-b96f-1ea3c1a06703)
 
