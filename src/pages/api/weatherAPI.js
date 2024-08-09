@@ -1,7 +1,7 @@
-//Considering the API key is sensitive information, while pushing the code to GitHub, I have removed the API key from the code.
-const API_KEY = 'INPUT YOUR API KEY';
-const BASE_URL = 'https://api.openweathermap.org/data/2.5';
+// This file contains the functions to fetch weather data from the OpenWeatherMap API.
 
+const API_KEY = process.env.NEXT_PUBLIC_API_URL;
+const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 
 export async function fetchWeatherData(searchValue, searchType, language = 'en') {
   try {
